@@ -16,11 +16,11 @@
 
 <br>
 
-<a href="https://nowpayments.io/donation/Boy">
-<img src="https://img.shields.io/badge/💎%20Support%20My%20Work-Crypto%20Donation-00ff99?style=for-the-badge&logo=bitcoin&logoColor=black"/>
-</a>
-
-<br><br>
+<p align="center">
+  <a href="https://nowpayments.io/donation/Boy">
+    <img src="https://img.shields.io/badge/%E2%9A%A1%20Support%20PVBOY-Crypto%20Donation-111827?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
+  </a>
+</p>
 
 <img src="https://github-readme-stats.vercel.app/api?username=phoseinq&show_icons=true&hide_border=true&theme=transparent"/>
 
