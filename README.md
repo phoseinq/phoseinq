@@ -17,11 +17,13 @@
 
 <p align="center">
 
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=phoseinq&show_icons=true&hide_border=true&theme=transparent"/>
-
 <br>
+
+<p align="center">
+  <a href="https://nowpayments.io/donation/Boy">
+    <img src="https://img.shields.io/badge/%E2%9A%A1%20Support%20PVBOY-Crypto%20Donation-2563eb?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
+  </a>
+</p>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=phoseinq&hide_border=true&theme=transparent"/>
 
