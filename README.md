@@ -2,7 +2,7 @@
 
 # 👋 Hey, I'm Hossein
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:00ff99&height=180&section=header&text=PVBOY&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:00ff99&height=180&section=header&text=BOY&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
 
 <br>
 
