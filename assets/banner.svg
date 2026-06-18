@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" fill="none" font-family="'Segoe UI', system-ui, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" fill="none" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0d1322"/>
       <stop offset="1" stop-color="#080b14"/>
     </linearGradient>
@@ -8,55 +8,22 @@
       <stop offset="0" stop-color="#6366f1"/>
       <stop offset="1" stop-color="#22d3ee"/>
     </linearGradient>
-    <radialGradient id="glowI" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0 H0 V44" fill="none" stroke="#6366f1" stroke-opacity="0.06" stroke-width="1"/>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0 H0 V48" fill="none" stroke="#6366f1" stroke-opacity="0.04" stroke-width="1"/>
     </pattern>
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
-  <circle cx="980" cy="80" r="210" fill="url(#glowI)"/>
-  <circle cx="1130" cy="250" r="190" fill="url(#glowC)"/>
-  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <ellipse cx="600" cy="70" rx="420" ry="240" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="2.5" fill="url(#accent)"/>
 
-  <!-- node mesh: tunnels / proxies / mesh -->
-  <g stroke="url(#accent)" stroke-width="1.4" stroke-opacity="0.45">
-    <line x1="770" y1="95" x2="900" y2="60"/>
-    <line x1="900" y1="60" x2="1045" y2="105"/>
-    <line x1="1045" y1="105" x2="965" y2="185"/>
-    <line x1="965" y1="185" x2="1105" y2="215"/>
-    <line x1="770" y1="95" x2="840" y2="205"/>
-    <line x1="840" y1="205" x2="965" y2="185"/>
-    <line x1="1045" y1="105" x2="1105" y2="215"/>
-    <line x1="900" y1="60" x2="965" y2="185"/>
-  </g>
-  <g fill="url(#accent)">
-    <g filter="url(#soft)" opacity="0.8">
-      <circle cx="770" cy="95" r="9"/><circle cx="900" cy="60" r="9"/>
-      <circle cx="1045" cy="105" r="9"/><circle cx="965" cy="185" r="9"/>
-      <circle cx="1105" cy="215" r="9"/><circle cx="840" cy="205" r="9"/>
-    </g>
-    <circle cx="770" cy="95" r="6"/><circle cx="900" cy="60" r="7"/>
-    <circle cx="1045" cy="105" r="6"/><circle cx="965" cy="185" r="7"/>
-    <circle cx="1105" cy="215" r="6"/><circle cx="840" cy="205" r="5"/>
-  </g>
-
-  <!-- wordmark -->
-  <text x="68" y="138" font-size="70" font-weight="800" fill="#f3f6ff" letter-spacing="-1.5">phoseinq</text>
-  <rect x="72" y="158" width="132" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="72" y="200" font-family="'Fira Code','Cascadia Code',ui-monospace,monospace" font-size="21" fill="#8a97b2">// networks · proxies · bots · automation</text>
-  <text x="72" y="244" font-family="'Fira Code','Cascadia Code',ui-monospace,monospace" font-size="16" fill="#475569">~ $ <tspan fill="#22d3ee">deploy</tspan> --everywhere <tspan fill="#475569">--quiet</tspan></text>
-
-  <text x="1132" y="40" text-anchor="end" font-family="'Fira Code',ui-monospace,monospace" font-size="16" fill="#22d3ee" letter-spacing="1">pvboy.dev</text>
+  <text x="600" y="150" text-anchor="middle" font-size="78" font-weight="800" fill="#f3f6ff" letter-spacing="-2">phoseinq</text>
+  <rect x="520" y="172" width="160" height="4" rx="2" fill="url(#accent)"/>
+  <text x="600" y="214" text-anchor="middle" font-family="'Fira Code','Cascadia Code',ui-monospace,monospace" font-size="19" fill="#8a97b2">networks · proxies · automation</text>
+  <text x="600" y="252" text-anchor="middle" font-family="'Fira Code',ui-monospace,monospace" font-size="14" fill="#22d3ee" letter-spacing="3">pvboy.dev</text>
 </svg>
