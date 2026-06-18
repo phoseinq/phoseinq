@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://nowpayments.io/donation/Boy">
-    <img src="https://img.shields.io/badge/%E2%9A%A1%20Support%20PVBOY-Crypto%20Donation-081d4d?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
+    <img src="https://img.shields.io/badge/%E2%9A%A1%20Support%20PVBOY-Crypto%20Donation-07825b?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
   </a>
 </p>
 
