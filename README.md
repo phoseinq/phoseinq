@@ -15,11 +15,7 @@
 </p>
 
 
-<br>
-
-<a href="https://nowpayments.io/donation/Boy">
-<img src="https://img.shields.io/badge/💎%20Support%20PVBOY-Donate%20Crypto-00ff99?style=for-the-badge&logo=bitcoin&logoColor=black"/>
-</a>
+<p align="center">
 
 <br><br>
 
