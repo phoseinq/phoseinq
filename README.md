@@ -25,6 +25,6 @@
   </a>
 </p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=phoseinq&hide_border=true&theme=transparent"/>
+<img src="https://streak-stats.demolab.com/?user=phoseinq&hide_border=true&theme=transparent"/>
 
 </div>
