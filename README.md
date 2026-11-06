@@ -12,7 +12,7 @@ Focused on automation, networking & clean solutions.
 <br>
 
 <a href="https://nowpayments.io/donation/Boy">
-  <img src="https://img.shields.io/badge/⚡%20Support%20PVBOY-Crypto%20Donation-07825b?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
+  <img src="https://img.shields.io/badge/⚡%20Support%20BOY-Crypto%20Donation-07825b?style=for-the-badge&logo=bitcoin&logoColor=00ff99" />
 </a>
 
 <br><br>
